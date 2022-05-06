@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+}
+
+/* ====== Global Styles ====== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.moon1 , .moon2, .moon3  {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Making the background image fixed to the viewport. */
+  background-attachment: fixed;
+}
+
+/* ======= Intro Section ====== */
+
+#intro-section .moon1{
+  background-image: url("../assets/images/moon1.png");
+  min-height: 100%;
+  height: 100vh;
+}
+
+#intro-section .content {
+  color: var(--white);
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  text-align: center;
+}
+
+#intro-section .content strong {
+  font-weight: 400;
+}
+
+#intro-section .learn-more {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px auto auto auto;
+}
+
+.learn-more-btn {
+  text-decoration: ;
+  height: 17px;
+  width: 17px;
+  transition: all 0.4s ease;
+}
+
+.learn-more-btn:hover {
+  opacity: 0.7;
+}
+
+.learn-more-btn:active {
+  opacity: 0.3;
+}
+
+
+/* ======= Hobby Section ====== */
+
+#hobby-section {
+  background-image: url('../assets/images/isaac-benhesed-onLbXleIkds-unsplash.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+#hobby-section p {
+  position: absolute;
+  width: 300px;
+  left: 250px;
+  top: 330px; 
+}
+
+/* ======= Personal Info Section ====== */
+
+#personal-info-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#personal-info-section h1 {
+  font-size: 37.5px;
+}
+
+#personal-info-section span {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+
+
+
+
+.human-3d model-viewer {
+  width: 400px;
+  height: 600px;
+}
+
+
+.moon2 {
+  background-image: url("../assets/images/moon2.png");  
+  height: 100vh;
+}
+
+/* ======= Educational Background Section ====== */
+
+#educational-background-section {
+  background-color: var(--white);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.graduation-hat-3d model-viewer{
+  width: 400px;
+  height: 600px;
+}
+
+#educational-background-section p {
+  width: 25%;
+
+}
+
+
+.moon3 {
+  background-image: url("../assets/images/moon3.png");  
+  height: 100vh;
+}
+
+
+.moon4 {
+  background-image: url("../assets/images/moon4.png");
+  height: 100vh;
+  position: relative;
+}
+
+footer {
+  color: var(--white);
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  font-size: small;
+  text-align: center;
+}
+
+/* #quote-section {
+  background-color: var(--black);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+#quote-section .p1 {
+  color: var(--white);
+  font-size: 24px;
+}
+
+#quote-section .p2 {
+  color: var(--white);
+  font-size: 24px;
+} */
