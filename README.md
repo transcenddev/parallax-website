@@ -2,10 +2,8 @@
 
 This is a parallax website.
 
-The project's live version is available at the following URL: https://r3kashi.github.io/tribute-page-socrates/.
+The project's live version is available at the following URL: https://r3kashi.github.io/parallax-website/.
 
-This work is based on RomarovArt's "Socrates (.obj)" (https://sketchfab.com/3d-models/socrates-obj-e2335a0d0a754ffabc031c02326913a2) CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).
-
-I am not the owner of the information about Socrates. It can be accessed at the following address: https://www.history.com/topics/ancient-history/socrates and https://www.nellumco.com/resources/the-only-true-wisdom-is-in-knowing-you-know-nothing-socrates
+The 3d model is work based on "Male Low Poly Human Body" (https://sketchfab.com/3d-models/male-low-poly-human-body-0ddf37d5ed164f47bae0df21fbc0c474) by Burenop (https://sketchfab.com/Burenop) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) and   "Mortarboard Graduation Hat" (https://sketchfab.com/3d-models/mortarboard-graduation-hat-2f959cf4ae3f400189b210fb513c90ee) by dupremium3d (https://sketchfab.com/dupremium3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
 I take no claim of copyright from this.
